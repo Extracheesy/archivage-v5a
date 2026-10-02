@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Archivage V5A — Présentation</title>
+  <meta name="description" content="Présentation de l'outil personnel Archivage V5A et de son utilisation de Google Drive.">
+  <style>
+    body{font:18px/1.65 system-ui,sans-serif;color:#172235;background:#f5f7fa;margin:0}
+    main{max-width:780px;margin:48px auto;padding:32px;background:white;border-radius:12px}
+    h1,h2{line-height:1.25}h2{font-size:1.25em;margin-top:1.8em}a{color:#174ea6}
+    .label{color:#526175;font-size:.9em}footer{border-top:1px solid #ddd;margin-top:32px;padding-top:20px}
+    @media(max-width:850px){main{margin:16px;padding:24px}}
+  </style>
+</head>
+<body><main>
+  <p class="label">Outil personnel · Google Drive</p>
+  <h1>Archivage V5A</h1>
+  <p>Archivage V5A est un outil personnel de sauvegarde et de restauration de données de recherche sur les marchés. Il utilise rclone et des scripts d'archivage pour transférer des fichiers entre le serveur de son propriétaire et son compte Google Drive.</p>
+  <h2>Utilisation de Google Drive</h2>
+  <p>L'application demande au propriétaire une autorisation Google OAuth pour rechercher les archives existantes, lire leurs métadonnées, déposer des archives et des manifestes, puis les télécharger pour vérifier leur intégrité ou restaurer les données.</p>
+  <p>Les opérations d'archivage sont destinées au dossier <code>polymkt-offload</code>. La permission Google Drive demandée est plus large que ce dossier : cette limitation relève de la configuration de l'outil, et non d'une restriction du droit OAuth.</p>
+  <h2>Fonctionnement prévu</h2>
+  <p>Les transferts sont programmés. Une copie locale n'est admissible au retrait qu'après vérification de l'archive distante et des conditions de conservation. L'administration, les vérifications et les opérations à la demande peuvent être assistées par un agent IA autorisé par le propriétaire.</p>
+  <p>Ce site publie uniquement la présentation de l'application et sa politique de confidentialité. Il ne contient ni archives, ni clés, ni jetons d'accès et ne permet pas de consulter le Drive du propriétaire.</p>
+  <h2>Responsable et contact</h2>
+  <p>Cédric Desportes — usage personnel.<br><a href="mailto:desportes.cedric@gmail.com">desportes.cedric@gmail.com</a></p>
+  <footer><a href="privacy.html">Politique de confidentialité</a></footer>
+</main></body></html>

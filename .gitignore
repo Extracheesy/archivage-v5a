@@ -1,0 +1,9 @@
+# Ce dépôt ne doit contenir que les pages publiques de présentation.
+*.json
+*.env
+*.pem
+*.key
+*.conf
+client_secret*
+credentials*
+token*
